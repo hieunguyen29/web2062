@@ -1,3 +1,9 @@
+const restaurant = {
+    name : 'Classico Italiano',
+    location : 'Via Angelo Tavanti 23, Frienze, Italy',
+    categories : ['Italian','Pizzeria','Vegetarian','Organic'],
+}
+
 const arr =  [2,3,4];
 const a = arr[0];
 const b = arr[1];
