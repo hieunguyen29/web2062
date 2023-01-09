@@ -40,7 +40,7 @@ const restaurant = {
 };
 
 console.log('---- OR ----');
-// Use ANY data typeof, return ANY data type, short-circuiting
+
 console.log(3 || 'Jonas');
 console.log('' || 'Jonas');
 console.log(true || 0);
