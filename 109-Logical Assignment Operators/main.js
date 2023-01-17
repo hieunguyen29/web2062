@@ -37,4 +37,15 @@ const restaurant = {
         console.log(mainIngredient);
         console.log(otherIngredients);
     }
+
 }
+
+const rest1 = {
+    name: 'Capri',
+    numGuests: 20,
+};
+
+const rest2 = {
+    name: 'La Piazza',
+    owner: 'Giovanni Rossi',
+};
