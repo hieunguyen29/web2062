@@ -31,3 +31,25 @@ console.log(annoucment.replace('door','gate'));
 console.log(annoucment.replace(/door/g,'gate'));
 
 
+//Booleans
+const plane = "Airbus A320neo";
+console.log(plane.includes('A320'));
+console.log(plane.includes('Boing'));
+console.log(plane.startsWith('Airb'));
+
+if(plane.startsWith('Airbus') && plane.endsWith('neo')){
+   console.log('Part of the NEW ARibus family');
+} 
+
+// Practice
+const checkBaggage = function(item){
+const baggage = item.toLowerCase();
+if(baggage.includes('knife') || baggage.includes('gun')){
+   console.log('You are Not allowed on board');
+}else{
+   console.log('Welcome a board');
+}
+}
+checkBaggage('I hava a laptop, some foof and a pocket Knife');
+checkBaggage('Sock and Camera');
+checkBaggage('Got some snacks and a gun for protection');
